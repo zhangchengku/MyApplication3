@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
+import com.example.choisemorepictures.MainActivity;
 import com.zggk.bridge.utils.Utils;
 import com.zggk.bridge.webview.WebViewActivity;
 

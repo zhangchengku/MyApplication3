@@ -87,7 +87,6 @@
                 android:resource="@xml/file_photo_deal"
                 tools:replace="android:resource" />
         </provider>
-        <activity android:name="com.zggk.bridge.MainActivity"/>
         <activity android:name="com.zggk.bridge.GuiActivity"
             android:theme="@style/ThemeSplash">
             <intent-filter>
