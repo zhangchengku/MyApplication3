@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/disease_new_top_layout"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/disease_new_top_layout"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/road_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="坝子桥"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_for_twenty_one"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/rrrrr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/road_name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/road_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/yuyin"
+                    android:background="@null"
+                    android:hint="请输入相关描述..."
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="@dimen/text_size_for_sixteen" />
+
+                <ImageView
+                    android:id="@+id/yuyin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/act_new_1" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/disease_new_bh_content_layou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rrrrr"
+                android:layout_marginLeft="15dp"
+
+                android:orientation="vertical">
+
+                <com.zggk.bridge.photo.NoScroolGridView
+                    android:id="@+id/cai_ji_picture_add_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:cacheColorHint="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:horizontalSpacing="3dp"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="4"
+                    android:scrollbars="none"
+                    android:verticalSpacing="3dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/foord"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/act_new_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="上传时间" />
+
+                <TextView
+                    android:id="@+id/rq_te"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/theme_color" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/act_new_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="上传单位" />
+
+                <TextView
+                    android:id="@+id/sgdw_te"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:text="亨通路桥工程邮箱公司"
+                    android:textColor="@color/theme_color" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/act_new_4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="项目进度" />
+
+                <TextView
+                    android:id="@+id/jd_te"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:text="已开工"
+                    android:textColor="@color/theme_color" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/act_new_5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="地理位置" />
+
+                <RelativeLayout
+                    android:id="@+id/no_bridge_fw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tttt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="您不在桥梁500m范围内"
+                            android:textColor="@color/theme_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tttt"
+                            android:layout_gravity="center_horizontal"
+                            android:text="定位不准？"
+                            android:textColor="@color/theme_color" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/sx"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/sx" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/is_bridge_fw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/theme_color"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/gps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/sssss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="该桥梁没有GPS信息"
+                        android:textColor="@color/pf_xin_bing_hai_text_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sssss"
+                        android:layout_centerHorizontal="true"
+                        android:text="无法定位"
+                        android:textColor="@color/pf_xin_bing_hai_text_color" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/add"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/buttom_tui"
+                    android:gravity="center"
+                    android:text="确认"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/activity_new_disease_zhe_zhao_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000"
+        android:visibility="gone" />
+</RelativeLayout>

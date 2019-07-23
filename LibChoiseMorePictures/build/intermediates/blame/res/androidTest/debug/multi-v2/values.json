@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,144,193,240,289,337,377,435,491,547,605,654,719,790,844,894",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,20",
+                        "endColumns": "39,48,48,46,48,47,39,57,55,55,57,48,64,70,53,49,12",
+                        "endOffsets": "90,139,188,235,284,332,372,430,486,542,600,649,714,785,839,889,1064"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,144,193,240,289,337,377,435,491,547,605,654,719,790,844,894",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,20",
+                        "endColumns": "39,48,48,46,48,47,39,57,55,55,57,48,64,70,53,49,12",
+                        "endOffsets": "90,139,188,235,284,332,372,430,486,542,600,649,714,785,839,889,1064"
+                    }
+                }
+            ]
+        }
+    ]
+}

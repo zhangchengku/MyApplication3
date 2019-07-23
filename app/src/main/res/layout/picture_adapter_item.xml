@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/send_topic_picture_adapter_item_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/act_add"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/send_topic_picture_adapter_item_close_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/send_topic_picture_adapter_item_img"
+            android:layout_alignRight="@+id/send_topic_picture_adapter_item_img"
+            android:src="@drawable/tpian_delete_btn"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/bofang"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bofang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

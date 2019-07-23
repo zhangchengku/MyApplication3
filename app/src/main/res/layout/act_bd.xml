@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/act_bg01"
+    android:orientation="vertical">
+    <include layout="@layout/header"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/edit_register_bg"
+        android:gravity="center_vertical">
+
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/zhanghu" />
+
+
+        <EditText
+            android:id="@+id/phone_edit"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginRight="11dp"
+            android:background="@color/white"
+            android:hint="请输入账号或手机号"
+            android:textColor="#1a1a1a"
+            android:textColorHint="#999999"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_bule"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

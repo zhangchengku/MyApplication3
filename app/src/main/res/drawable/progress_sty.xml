@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/background"
+        android:dither="true"
+        android:drawable="@drawable/progress_level_base">
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <gradient
+                    android:angle="270"
+                    android:centerY="0.75" />
+            </shape>
+        </clip>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/progress_level"/>
+
+</layer-list>

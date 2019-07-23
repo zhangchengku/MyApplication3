@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChoiseMorePictures</string>
+    <string name="choose_picture_count">Selected (% s) sheet</string>
+    <string name="choose_picture_ok">Go</string>
+    <string name="choose_picture_tips_empty">Please choose one or more pictures</string>
+    <string name="choose_picture_tips_max_num_warm">Choose up to nine pictures</string>
+    <string name="choose_picture_title">Select pictures</string>
+    <string name="choose_picture_unit">zhang</string>
+</resources>

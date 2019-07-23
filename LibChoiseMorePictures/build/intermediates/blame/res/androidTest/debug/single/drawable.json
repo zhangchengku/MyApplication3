@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_listview_selector.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_listview_selector.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_back_sel.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_back_sel.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_style.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_style.xml"
+    }
+]

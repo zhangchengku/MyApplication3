@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_my_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+      />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/back"
+            android:layout_width="15dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back"
+            android:text="返回"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+           android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingBottom="55dp"
+        android:textColor="#FFFFFF"
+        android:text="将二维码放入框内，即可自动扫描"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

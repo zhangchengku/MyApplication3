@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,181,230,319,407,472",
+                        "endColumns": "55,69,48,88,87,64,53",
+                        "endOffsets": "106,176,225,314,402,467,521"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,181,230,319,407,472",
+                        "endColumns": "55,69,48,88,87,64,53",
+                        "endOffsets": "106,176,225,314,402,467,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

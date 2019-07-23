@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mine_personal_rly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F2F2"
+        android:padding="20dp">
+
+        <Button
+            android:textColor="@color/text_color"
+            android:id="@+id/mine_camera_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mine_personal_bg_btn_sel"
+            android:layout_marginTop="20dp"
+            android:text="拍照"
+            android:textSize="@dimen/text_size_for_sixteen" />
+
+        <Button
+            android:textColor="@color/text_color"
+            android:id="@+id/mine_photo_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_camera_btn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mine_personal_bg_btn_sel"
+            android:text="从相册选择"
+            android:textSize="@dimen/text_size_for_sixteen" />
+
+        <Button
+            android:id="@+id/mine_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_photo_btn"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mine_personal_cancel_bg_btn_sel"
+            android:text="取消"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/text_size_for_sixteen" />
+    </RelativeLayout>
+</RelativeLayout>

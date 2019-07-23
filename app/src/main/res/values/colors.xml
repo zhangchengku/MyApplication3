@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_6">#666666</color>
+    <color name="halving_line">#ffdedede</color>
+    <color name="act_bg01">#f0f0f0</color>
+    <color name="scan_corner_color">#0effc2</color>
+    <color name="text_white">#ffffff</color>
+    <color name="theme_color">#5282EB</color>
+    <color name="text_black">#000000</color>
+    <color name="text_color">#333333</color>
+    <color name="divider">#999999</color>
+    <color name="select_month_text_bg">#5db7fc</color>
+    <color name="text_3">#333333</color>
+    <color name="bh_lx_pop_select_text_color">#57b5fc</color>
+    <color name="text_9">#999999</color>
+    <color name="divider2">#dedede</color>
+    <color name="pf_xin_bing_hai_text_color">#cf1f1f</color>
+    <color name="blue">#1DA1F2</color>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text10">10dp</dimen>
+    <dimen name="common_vew_column_padding">2px</dimen>
+    <dimen name="common_vew_raw_padding">2px</dimen>
+    <dimen name="text_size_for_ten">10sp</dimen>
+    <dimen name="text_size_for_eleven">11sp</dimen>
+    <dimen name="text_size_for_twelve">12sp</dimen>
+    <dimen name="text_size_for_thirteen">13sp</dimen>
+    <dimen name="text_size_for_fourteen">14sp</dimen>
+    <dimen name="text_size_for_fifteen">15sp</dimen>
+    <dimen name="text_size_for_sixteen">16sp</dimen>
+    <dimen name="text_size_for_seventeen">17sp</dimen>
+    <dimen name="text_size_for_eighteen">18sp</dimen>
+    <dimen name="text_size_for_nineteen">19sp</dimen>
+    <dimen name="text_size_for_twenty">20sp</dimen>
+    <dimen name="text_size_for_twenty_one">21sp</dimen>
+    <dimen name="text_size_for_thirty_six">36sp</dimen>
+    <dimen name="text_size_for_eighty">80sp</dimen>
+    <dimen name="text_size_for_sixty">60sp</dimen>
+    <dimen name="disease_com_item_height">40dp</dimen>
+    <dimen name="item_height">15dp</dimen>
+</resources>

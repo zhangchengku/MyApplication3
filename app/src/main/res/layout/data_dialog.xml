@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/load_offline_data_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="离线数据包下载中"
+            android:textColor="@color/text_6"
+            android:textSize="45px" />
+        <TextView
+            android:id="@+id/load_offline_data_title_anim_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/text_6"
+            android:textSize="45px" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/load_offline_data_value_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/offline_data_loading_content"
+        android:textColor="@color/text_6"
+        android:textSize="40px" />
+
+    <ProgressBar
+        android:id="@+id/load_offline_data_progressbar"
+        style="@style/StyleProgressBarMini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="35dp"
+        android:max="100"
+        android:progress="0" />
+
+</LinearLayout>

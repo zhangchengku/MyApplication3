@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChoiseMorePictures</string>
+    <string name="choose_picture_title">选择图片</string>
+    <string name="choose_picture_ok">确定</string>
+    <string name="choose_picture_unit">张</string>
+    <string name="choose_picture_tips_empty">请选择一张或多张图片</string>
+    <string name="choose_picture_tips_max_num_warm">最多选择%s张图片</string>
+    <string name="choose_picture_count">已选择（%s）张</string>
+
+</resources>

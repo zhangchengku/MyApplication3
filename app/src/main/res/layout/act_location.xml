@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/location"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"/>
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/title_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/bridge_name"
+                android:text="坝子桥"
+                android:textSize="18sp"
+                android:textColor="#101010"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <RelativeLayout
+                android:id="@+id/finish"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <View
+            android:layout_below="@+id/title_lay"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/zhushi"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title_lay"
+            android:text="请移动指针至圆圈范围内任意点匹配经纬度"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:id="@+id/jwd"
+            android:layout_below="@+id/zhushi"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:text="经度"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:id="@+id/jd"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="10dp"
+                android:maxLength="9"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edit_bg"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:text="纬度"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"
+                android:id="@+id/wd"
+                android:maxLength="9"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edit_bg"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/add"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:layout_below="@+id/jwd"
+            android:layout_centerHorizontal="true"
+            android:text="确定修改"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+</RelativeLayout>

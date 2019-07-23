@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#efefef" >
+
+    <RelativeLayout
+        android:id="@+id/photo_grally_top_nav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/title_bg_color" >
+
+        <LinearLayout
+            android:id="@+id/photo_grally_back_layout"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/photo_grally_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/com_back_sel" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/photo_grally_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/choose_picture_title"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/photo_grally_ok_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/choose_picture_ok"
+            android:textColor="@color/search_text_sel"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/relativeLayoutImagesGradeView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/photo_grally_top_nav_layout"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@color/bule_overlay"
+        android:cacheColorHint="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" >
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutImagesGradeView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.8"
+        android:background="@android:color/black" >
+
+        <HorizontalScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/button3"
+            android:scrollbars="none"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:id="@+id/selected_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ADD8E6"
+            android:text="@string/choose_picture_count"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/land_log"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/activity_new_disease_zhe_zhao_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="visible"/>
+    <RelativeLayout
+        android:layout_above="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="广东省农村公路危桥改造监管系统"
+            android:textSize="@dimen/text_size_for_twenty_one"
+            android:textColor="@color/text_white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingBottom="@dimen/disease_com_item_height"
+        android:id="@+id/aaa"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/user_bg"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/disease_com_item_height">
+            <TextView
+                android:textColor="@color/text_white"
+                android:text="   "
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/text_size_for_sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/username"
+                android:textSize="@dimen/text_size_for_sixteen"
+                android:textColor="@color/text_white"
+                android:textColorHint="@color/text_white"
+                android:background="@null"
+                android:hint="请输入账号或手机号"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/item_height"
+            android:background="@drawable/user_bg"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/disease_com_item_height">
+            <TextView
+                android:textColor="@color/text_white"
+                android:text="   "
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/text_size_for_sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:password="true"
+                android:id="@+id/password"
+                android:textSize="@dimen/text_size_for_sixteen"
+                android:textColor="@color/text_white"
+                android:textColorHint="@color/text_white"
+                android:background="@null"
+                android:hint="请输入密码"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/land"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/item_height"
+            android:background="@drawable/button_bule"
+            android:text="登录"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_for_eighteen"
+            android:textColor="@color/text_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/disease_com_item_height"/>
+        <LinearLayout
+            android:id="@+id/wjmm"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:text="忘记密码"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size_for_sixteen"
+                android:textColor="@color/text_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_below="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:id="@+id/buttom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1px"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:background="#999999" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="第三方登录"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1px"
+                    android:layout_weight="1"
+                    android:layout_marginRight="50dp"
+                    android:background="#999999" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="25dp">
+                <ImageView
+                    android:id="@+id/qq"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/qq" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

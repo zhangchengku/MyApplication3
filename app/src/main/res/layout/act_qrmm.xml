@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/act_bg01"
+    android:orientation="vertical">
+    <include layout="@layout/header"
+        android:id="@+id/heee"
+        />
+    <RelativeLayout
+        android:layout_below="@+id/heee"
+        android:layout_above="@+id/z_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:text="设置新密码"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/z_ly"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_register_bg"
+            android:gravity="center_vertical">
+            <EditText
+                android:maxLength="6"
+                android:phoneNumber="true"
+                android:paddingLeft="5dp"
+                android:id="@+id/yz_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="39dp"
+                android:layout_marginRight="11dp"
+                android:background="@color/white"
+                android:hint="输入验证码"
+                android:textColor="#1a1a1a"
+                android:textColorHint="#999999"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_marginRight="15dp"
+                android:id="@+id/get_verification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_yello"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textColor="#32b8e8"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_register_bg"
+            android:gravity="center_vertical">
+            <EditText
+                android:password="true"
+                android:paddingLeft="5dp"
+                android:id="@+id/mm_code"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginRight="11dp"
+                android:background="@color/white"
+                android:hint="输入密码(至少6位)"
+                android:textColor="#1a1a1a"
+                android:textColorHint="#999999"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_register_bg"
+            android:gravity="center_vertical">
+            <EditText
+                android:password="true"
+                android:paddingLeft="5dp"
+                android:id="@+id/qrmm_code"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginRight="11dp"
+                android:background="@color/white"
+                android:hint="确认密码"
+                android:textColor="#1a1a1a"
+                android:textColorHint="#999999"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_bule"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:background="@color/theme_color"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/hea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:id="@+id/go_back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="11dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="17dp"
+                android:background="@drawable/com_back" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text=""
+            android:id="@+id/title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/text_black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_white"
+            android:text=""
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="11dp"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

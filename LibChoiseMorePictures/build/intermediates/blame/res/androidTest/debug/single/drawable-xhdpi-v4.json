@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\box_checked_btn.png",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\box_checked_btn.png"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\box_btn.png",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\box_btn.png"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    }
+]

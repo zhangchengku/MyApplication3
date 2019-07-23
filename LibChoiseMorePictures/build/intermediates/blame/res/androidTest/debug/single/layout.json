@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\imgsitem.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\layout\\imgsitem.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\photogrally.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\layout\\photogrally.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\imgfilelist.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\layout\\imgfilelist.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\imgfileadapter.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\layout\\imgfileadapter.xml"
+    },
+    {
+        "merged": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "C:\\studio\\MyApplication3\\LibChoiseMorePictures\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    }
+]

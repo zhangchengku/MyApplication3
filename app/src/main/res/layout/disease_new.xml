@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/disease_new_sel_obj_pop_bg_shap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/disease_new_sel_obj_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/disease_new_sel_obj_pop_top_bg"
+        android:textColor="@color/white"
+        android:textSize="45px"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/disease_new_sel_obj_list"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:listSelector="@drawable/com_listview_selector"
+        android:dividerHeight="1dp"
+        android:divider="@color/divider">
+
+    </ListView>
+
+</LinearLayout>

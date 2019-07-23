@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_nav_padding_value">10dp</dimen>
+    <dimen name="base_nav_updown_padding_value">8dp</dimen>
+    <dimen name="base_nav_button_padding_value">5dp</dimen>
+    
+    <!-- dimens for course detail -->
+    <dimen name="course_detail_titlebar_height">46dp</dimen>
+    <dimen name="course_detail_play_fullscreen_comment_margin_top">56dp</dimen>
+
+    <!-- common -->
+    <dimen name="divider_line_size">0.75dp</dimen>
+    
+    <dimen name="text_size_for_ten">8dp</dimen>
+    <dimen name="text_size_for_eleven">9sp</dimen>
+    <dimen name="text_size_for_twelve">10sp</dimen>
+    <dimen name="text_size_for_thirteen">11sp</dimen>
+    <dimen name="text_size_for_fourteen">12sp</dimen>
+    <dimen name="text_size_for_fifteen">13sp</dimen>
+    <dimen name="text_size_for_sixteen">14sp</dimen>
+    <dimen name="text_size_for_seventeen">15sp</dimen>
+    <dimen name="text_size_for_eighteen">16sp</dimen>
+    <dimen name="text_size_for_nineteen">17sp</dimen>
+    <dimen name="text_size_for_twenty">18sp</dimen>
+    <dimen name="text_size_for_twenty_one">19sp</dimen>
+    <dimen name="text_size_for_thirty_six">34sp</dimen>
+    <dimen name="text_size_for_eighty">78sp</dimen>
+    <dimen name="text_size_for_sixty">58sp</dimen>
+    <dimen name="disease_com_item_height">40dp</dimen>
+    <dimen name="item_height">25dp</dimen>
+
+</resources>

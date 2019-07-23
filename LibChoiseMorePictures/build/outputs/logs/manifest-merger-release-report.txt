@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:3:5-45
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:5:5-30
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:4:5-28
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:8:5-84
+	android:name
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:8:22-81
+application
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:10:5-22:19
+	android:allowBackup
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:10:18-44
+activity#com.example.choisemorepictures.MainActivity
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:11:9-13:48
+	android:label
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:12:13-71
+activity#com.example.logic.ImgFileListActivity
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:15:9-17:48
+	android:label
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:16:13-65
+activity#com.example.logic.ImgsActivity
+ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:19:9-21:48
+	android:label
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml:20:13-58
+uses-sdk
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		ADDED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml
+		INJECTED from C:\studio\MyApplication3\LibChoiseMorePictures\AndroidManifest.xml

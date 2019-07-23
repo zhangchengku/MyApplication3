@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/disease_new_sel_obj_pop_bg_shap"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/disease_new_sel_obj_pop_top_bg">
+
+        <TextView
+            android:id="@+id/wheel_date_and_time_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_sixteen" />
+
+        <TextView
+            android:id="@+id/wheel_date_and_time_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_sixteen" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.zggk.bridge.popuwindow.WheelView
+            android:id="@+id/wheel_date_and_time_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.zggk.bridge.popuwindow.WheelView
+            android:id="@+id/wheel_date_and_time_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.zggk.bridge.popuwindow.WheelView
+            android:id="@+id/wheel_date_and_time_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.zggk.bridge.popuwindow.WheelView
+            android:id="@+id/wheel_date_and_time_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.zggk.bridge.popuwindow.WheelView
+            android:id="@+id/wheel_date_and_time_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
